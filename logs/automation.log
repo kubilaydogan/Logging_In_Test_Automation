@@ -1,0 +1,18 @@
+2022-11-09 11:27:02 [main] INFO  hooks:23 - ===============================================================
+2022-11-09 11:27:02 [main] INFO  hooks:24 - |          Test is Starting...
+2022-11-09 11:27:02 [main] INFO  hooks:25 - |          Operating System : Mac OS X
+2022-11-09 11:27:02 [main] INFO  hooks:26 - ===============================================================
+
+2022-11-09 11:27:02 [main] INFO  hooks:33 - ===============================================================
+2022-11-09 11:27:02 [main] INFO  hooks:34 - |          Scenario Name: Login with valid admin credentials
+2022-11-09 11:27:02 [main] INFO  hooks:35 - ===============================================================
+2022-11-09 11:27:02 [main] INFO  LoginPage:10 - Login as admin started!
+2022-11-09 11:27:02 [main] INFO  hooks:33 - ===============================================================
+2022-11-09 11:27:02 [main] INFO  hooks:34 - |          Scenario Name: Login with valid manager credentials
+2022-11-09 11:27:02 [main] INFO  hooks:35 - ===============================================================
+2022-11-09 11:27:02 [main] INFO  LoginPage:10 - Login as manager started!
+2022-11-09 11:27:02 [main] INFO  hooks:33 - ===============================================================
+2022-11-09 11:27:02 [main] INFO  hooks:34 - |          Scenario Name: Error level Log sample
+2022-11-09 11:27:02 [main] INFO  hooks:35 - ===============================================================
+2022-11-09 11:27:02 [main] ERROR stepDefs:24 - Error occurred when doing the transaction: java.lang.ArithmeticException: / by zero
+2022-11-09 11:27:02 [main] ERROR stepDefs:25 - Error occurred when doing the transaction: / by zero
