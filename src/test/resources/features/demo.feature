@@ -1,5 +1,5 @@
 @logs @hookless
-Feature: Logs in Selenium
+Feature: How to use logs in Selenium
 
   Scenario: Login with valid admin credentials
     Given I login as admin
