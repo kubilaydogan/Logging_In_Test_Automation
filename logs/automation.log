@@ -1,18 +1,20 @@
-2022-11-09 11:27:02 [main] INFO  hooks:23 - ===============================================================
-2022-11-09 11:27:02 [main] INFO  hooks:24 - |          Test is Starting...
-2022-11-09 11:27:02 [main] INFO  hooks:25 - |          Operating System : Mac OS X
-2022-11-09 11:27:02 [main] INFO  hooks:26 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  hooks:26 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  hooks:27 - |          Test is Starting...
+2022-11-17 07:28:05 [main] INFO  hooks:28 - |          Operating System : Mac OS X
+2022-11-17 07:28:05 [main] INFO  hooks:29 - ===============================================================
 
-2022-11-09 11:27:02 [main] INFO  hooks:33 - ===============================================================
-2022-11-09 11:27:02 [main] INFO  hooks:34 - |          Scenario Name: Login with valid admin credentials
-2022-11-09 11:27:02 [main] INFO  hooks:35 - ===============================================================
-2022-11-09 11:27:02 [main] INFO  LoginPage:10 - Login as admin started!
-2022-11-09 11:27:02 [main] INFO  hooks:33 - ===============================================================
-2022-11-09 11:27:02 [main] INFO  hooks:34 - |          Scenario Name: Login with valid manager credentials
-2022-11-09 11:27:02 [main] INFO  hooks:35 - ===============================================================
-2022-11-09 11:27:02 [main] INFO  LoginPage:10 - Login as manager started!
-2022-11-09 11:27:02 [main] INFO  hooks:33 - ===============================================================
-2022-11-09 11:27:02 [main] INFO  hooks:34 - |          Scenario Name: Error level Log sample
-2022-11-09 11:27:02 [main] INFO  hooks:35 - ===============================================================
-2022-11-09 11:27:02 [main] ERROR stepDefs:24 - Error occurred when doing the transaction: java.lang.ArithmeticException: / by zero
-2022-11-09 11:27:02 [main] ERROR stepDefs:25 - Error occurred when doing the transaction: / by zero
+2022-11-17 07:28:05 [main] INFO  hooks:36 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  hooks:37 - |          Scenario Name: Login with valid admin credentials
+2022-11-17 07:28:05 [main] INFO  hooks:38 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  LoginPage:10 - Login as admin started!
+2022-11-17 07:28:05 [main] INFO  hooks:36 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  hooks:37 - |          Scenario Name: Login with valid manager credentials
+2022-11-17 07:28:05 [main] INFO  hooks:38 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  LoginPage:10 - Login as manager started!
+2022-11-17 07:28:05 [main] INFO  hooks:36 - ===============================================================
+2022-11-17 07:28:05 [main] INFO  hooks:37 - |          Scenario Name: Error level Log sample
+2022-11-17 07:28:05 [main] INFO  hooks:38 - ===============================================================
+2022-11-17 07:28:05 [main] ERROR stepDefs:27 - Error occurred when doing the transaction: java.lang.ArithmeticException: / by zero
+2022-11-17 07:28:05 [main] ERROR stepDefs:28 - Error occurred when doing the transaction: / by zero
+2022-11-17 07:28:08 [main] INFO  WebDriverManager:1237 - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-17 07:28:08 [main] INFO  WebDriverManager:1290 - Exporting webdriver.chrome.driver as /Users/kubilaydogan/.cache/selenium/chromedriver/mac64/107.0.5304.62/chromedriver

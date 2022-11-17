@@ -2,13 +2,12 @@ package stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pages.LoginPage;
 
 public class stepDefs {
-
-    private static Logger log = LogManager.getLogger(stepDefs.class);
+    private static final Logger log = LoggerFactory.getLogger(stepDefs.class);
 
     @Given("^I login as (admin|manager|practitioner)$")
     public void loginToApp(String profile) {
