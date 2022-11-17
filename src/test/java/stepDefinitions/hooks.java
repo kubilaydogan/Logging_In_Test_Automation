@@ -3,21 +3,20 @@ import core.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 
 public class hooks {
-    private static Logger log = LogManager.getLogger(hooks.class);
+    private static final Logger log = LoggerFactory.getLogger(hooks.class);
     private static boolean setUpIsDone = false;
 
     @Before(order=1)
     public void setup1(Scenario scenario) {
         // This will be logged only once
-
         if (setUpIsDone) {
         } else {
             log.info("===============================================================");
