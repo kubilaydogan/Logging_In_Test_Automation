@@ -22,6 +22,7 @@ public class hooks {
             log.info("===============================================================");
             log.info("|          Test is Starting...");
             log.info("|          Operating System : " + System.getProperty("os.name"));
+            log.info("|          Tested by: Kubilay Dogan");
             log.info("===============================================================\n");
             setUpIsDone = true;
         }
