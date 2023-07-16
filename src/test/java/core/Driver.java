@@ -3,32 +3,33 @@ package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 public class Driver {
-    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     private Driver() {
     }
 
     public static WebDriver getDriver() {
-        if (driverPool.get() == null) {
+        if (driver.get() == null) {
             WebDriverManager.chromedriver().setup();
-            driverPool.set(new ChromeDriver());
+            ChromeOptions option = new ChromeOptions();
+            option.addArguments("--remote-allow-origins=*");
+            option.addArguments("--disable notifications");
+            DesiredCapabilities cp = new DesiredCapabilities();
+            cp.setCapability(ChromeOptions.CAPABILITY, option);
+            option.merge(cp);
+            driver.set(new ChromeDriver(option));
         }
-        return driverPool.get();
+        return driver.get();
     }
 
     public static void close() {
-        driverPool.get().quit();
-        driverPool.remove();
+        driver.get().quit();
+        driver.remove();
     }
 }

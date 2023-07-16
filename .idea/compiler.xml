@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Log_Usage_Samples" />
+        <module name="Logging_In_Test_Automation" />
       </profile>
     </annotationProcessing>
   </component>

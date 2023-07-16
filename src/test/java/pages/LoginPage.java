@@ -7,6 +7,7 @@ public class LoginPage {
     private static final Logger log = LoggerFactory.getLogger(LoginPage.class);
 
     public static void login(String profile) {
+        // code fot login
         log.info("Login as " + profile +" started!");
     }
 }
